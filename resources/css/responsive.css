@@ -1,0 +1,45 @@
+@media screen and (max-width:1240px){
+    .row,
+    .hero-text-box{
+        width: 100%;
+    }
+}
+@media screen and (max-width:980px)
+{
+    h1, h2{
+        font-size: 300%;
+    }
+}
+@media screen and (max-width:768px)
+{
+    html{
+        font-size: 18px;
+    }
+    h1, h2{
+        font-size: 250%;
+    }
+    .hero-text-box p,.pg p,.subcribe p{
+        width: 80%;
+    }
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
+    from input[type="email"]{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    html{
+        font-size: 16px;
+    }
+    .grid-container{
+        grid-template-columns: auto;
+        grid-column-gap: 0;
+        }
+    .footer ul li a{
+        font-size: 250%;
+        margin: 0 15px;
+    }
+   
+}
